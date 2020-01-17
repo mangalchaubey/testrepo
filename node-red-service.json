@@ -1,0 +1,25 @@
+{
+  "kind": "Service",
+  "apiVersion": "v1",
+  "metadata": {
+    "name": "node-red-workbech-pod-runtime",
+    "namespace": "default",
+    "labels": {
+      "run": "node-red-workbech-pod-runtime"
+    }
+  },
+  "spec": {
+    "ports": [
+      {
+        "protocol": "TCP",
+        "port": 80,
+        "targetPort": 1880,
+        "nodePort": 5050
+      }
+    ],
+    "selector": {
+        "run": "node-red-workbech-pod-runtime"
+      },
+    "type": "LoadBalancer"
+    }
+}

@@ -1,0 +1,22 @@
+{
+  "name": "kubernetes-client-sample",
+  "version": "1.1.0",
+  "description": "Kubernetes clint test",
+  "main": "kubernetes-client-node.js",
+  "scripts": {
+    "start": "node kubernetes-client-node.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "no"
+  },
+  "keywords": [
+    "npm",
+    "start"
+  ],
+  "author": "mangal",
+  "license": "Unlicense",
+  "dependencies": {
+    "kubernetes-client": "^8.3.6"
+  }
+}
