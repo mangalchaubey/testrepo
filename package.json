@@ -17,6 +17,6 @@
   "author": "mangal",
   "license": "Unlicense",
   "dependencies": {
-    "kubernetes-client": "^8.3.6"
+    "kubernetes-client": "^8.3.7"
   }
 }
